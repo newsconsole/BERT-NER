@@ -1,0 +1,19 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pylint = "*"
+
+[packages]
+pytorch-transformers = "==1.2.0"
+torch = "==1.2.0"
+seqeval = "==0.0.5"
+tqdm = "==4.31.1"
+nltk = "==3.4.5"
+Flask = "==1.1.1"
+Flask-Cors = "==3.0.8"
+
+[requires]
+python_version = "3.7"
